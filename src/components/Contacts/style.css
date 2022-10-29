@@ -24,4 +24,22 @@ ul,li{
     background-color: antiquewhite;
     padding: 5px;
     margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.btn>button{
+    padding: 5px;
+    background-color: darkseagreen;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: darkgreen;
+    font-weight: bold;
+    font-size: x-large;
 }

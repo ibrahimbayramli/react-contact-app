@@ -20,7 +20,7 @@ function Form({addContact,contacts}) {
 
         addContact([...contacts,form])
 
-        console.log(form)
+
     }
 
     return (
@@ -45,7 +45,9 @@ function Form({addContact,contacts}) {
                 </div>
 
 
-                <button>Add</button>
+                <div className={"btn"}>
+                    <button>Add</button>
+                </div>
             </form>
         </div>
     );
